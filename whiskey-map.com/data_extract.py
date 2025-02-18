@@ -7,7 +7,7 @@ def getdata(driver, url):
 
     driver.get(url)
     dataDic = {}
-
+    dataDic["url"] = url
     # Initialize variables
     instagram_link=""
     dis_name = ""
