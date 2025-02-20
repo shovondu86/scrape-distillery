@@ -20,8 +20,8 @@ def getdata(driver, url):
     found_date = ""
     certificate = ""
     amenities = ""
-
-    #Distillery Name
+    dataDic
+    dataDic["url"] = url
     try:
         dis_name_ = driver.find_element(By.CLASS_NAME, "jupiterx-main-header-post-title").text
         print(dis_name_)
